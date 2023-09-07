@@ -1,0 +1,100 @@
+#timer{
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+h1 {
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 36.7px;
+  color: rgb(17, 255, 0);
+}
+
+p {
+  margin-top: 10px;
+  font-size: 30px;
+  color: rgb(17, 255, 0);
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.input {
+  width: 600px;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* border-radius: 20px; */
+}
+
+.button-start {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 320px;
+  font-size: 30px;
+}
+
+body {
+  background: url(images/Фон.png) no-repeat center center fixed;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap; /* Определение многострочного флекс-контейнера. https://basicweb.ru/css/css_pr_flex-wrap.php */
+  margin-top: 0px;
+  width: 500px;
+}
+
+.card {
+  display: flex; /* Способность элемента растягиваться или сжиматься для заполнения собой доступного свободного пространства */
+  align-items: center; /* Центрирование содержимого по вертикали */
+  justify-content: center; /* Центрирование содержимого по горизонтали */
+  font-size: 100px; /* Определение размера шрифта */
+  margin: 10px; /* Отступ от элемента */
+  border-radius: 20px; /* Радиус скругления уголков рамки */
+  font-weight: 600; /* Насыщенность шрифта (толщина) */
+  width: 100px;
+  height: 100px;
+  /* background-color: brown; */
+  background-image: url(images/Shirt.png);
+  color: transparent; /* Прозрачный шрифт */
+  cursor: pointer;
+}
+
+.open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  margin: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: black;
+}
+
+.success {
+  background-color: rgb(0, 255, 68);
+  color: black;
+}
+
+.button-reset {
+  border-radius: 20px;
+  cursor: pointer;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 340px;
+  font-size: 30px;
+}
